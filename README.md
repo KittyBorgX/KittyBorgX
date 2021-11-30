@@ -3,8 +3,9 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 </h3>
 
+<!--
 [![Header](https://github.com/KittyBorgX/KittyBorgX/blob/main/Github%20Profile%20Header.png?raw=true "Header")](https://github.com/KittyX29/KittyX29/blob/main/icons/Blue%20Hand%20Drawn%20Black%20History%20Month%20Social%20and%20Emotional%20Learning%20Google%20Classroom%20Header.jpg)
-
+-->
 
 
 <p align="center">
