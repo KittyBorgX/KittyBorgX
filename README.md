@@ -26,9 +26,9 @@ _Some info:_
 - ⚡ Fun fact: I am dead scared of lizards
 
 **Languages that I use for development:**
-- TypeScript
-- Python
 - Rust
+- Python
+- TypeScript
 
 **Contact me:**
 
