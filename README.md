@@ -16,7 +16,7 @@ Hey There,
 My name is KittyBorgX. I'm a school student, 14 years old and a hardcore programmer :)
 
 _Overview_
-- Creator of the [ponyvm](https://github.com/KittyBorgX/ponyvm)
+- Creator of [ponyvm](https://github.com/KittyBorgX/ponyvm)
 - Contributed to [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/cyyever/pytorch/commit/f4b02ca01577e8c49e1650dd05643cf1d2b56310)
 
 _Some info:_ 
