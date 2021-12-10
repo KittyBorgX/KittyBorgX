@@ -7,10 +7,13 @@
 [![Header](https://github.com/KittyBorgX/KittyBorgX/blob/main/Github%20Profile%20Header.png?raw=true "Header")](https://github.com/KittyX29/KittyX29/blob/main/icons/Blue%20Hand%20Drawn%20Black%20History%20Month%20Social%20and%20Emotional%20Learning%20Google%20Classroom%20Header.jpg)
 -->
 
-
+<!--
 <p align="center">
   <img src="[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%56D6F7&lines=Open+source+contributor;Self+taught+programmer;Always+learning+something+new)](https://git.io/typing-svg)"></a>
 </p>
+-->
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2356D6F7&center=true&vCenter=true&lines=Open+source+contributor;Self+taught+programmer;Always+learning+something+new)](https://git.io/typing-svg)
 
 **About Me:**
 Hey There, 
