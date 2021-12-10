@@ -12,8 +12,7 @@
 </p>
 
 **About Me:**
-Hey There, 
-My name is KittyBorgX. I'm a school student, 14 years old and a hardcore programmer :)
+My name is Krishna. I'm a school student, 14 years old and a hardcore programmer :)
 
 _Overview_
 - Creator of [ponyvm](https://github.com/KittyBorgX/ponyvm)
