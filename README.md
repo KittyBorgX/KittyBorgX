@@ -22,7 +22,7 @@ _Overview_
 
 
 _Some info:_ 
-- 🔭 I’m currently working on making a programming language :D
+- 🔭 I’m currently working on [ponyvm](https://github.com/KittyBorgX/ponyvm)
 - 🌱 I’m currently learning Rust
 - 💬 Ask me about any question if you feel like!
 - ⚡ Fun fact: I am dead scared of lizards
