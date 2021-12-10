@@ -9,7 +9,7 @@
 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=36BCF7FF&lines=Freelance+coder;Self+taught+programmer;Making+a+programming+language;Always%20learning%20new%20things&center=true&width=380&height=45"></a>
+  <img src="[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2356D6F7&lines=Open+source+contributor;Self+taught+programmer;Always+learning+something+new)](https://git.io/typing-svg)"></a>
 </p>
 
 **About Me:**
