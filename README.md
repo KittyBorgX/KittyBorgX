@@ -8,7 +8,7 @@
 -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2356D6F7&center=true&vCenter=true&lines=Open+source+contributor;Self+taught+programmer;Always+learning+something+new)](https://git.io/typing-svg"></a>
+  <img src="https://readme-typing-svg.herokuapp.com?color=%2356D6F7&center=true&vCenter=true&lines=Open+source+contributor;Self+taught+programmer;Always+learning+something+new"></a>
 </p>
 
 **About Me:**
