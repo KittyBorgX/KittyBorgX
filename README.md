@@ -18,7 +18,7 @@ _Overview_
 - Contributed to [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/cyyever/pytorch/commit/f4b02ca01577e8c49e1650dd05643cf1d2b56310)
 
 _Some info:_ 
-- 🔭 I’m currently working on nothing
+- 🔭 I’m currently working on [fir lang](https://github.com/KittyBorgX/fir-lang)
 - 🌱 I’m currently learning Rust
 - 💬 Ask me about any question if you feel like!
 - ⚡ Fun fact: I am dead scared of lizards
