@@ -11,9 +11,6 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=%2356D6F7&center=true&vCenter=true&lines=Open+source+developer;Self+taught+programmer;Always+learning+something+new"></a>
 </p>
 
-**About Me:**
-My name is Krishna. I'm a school student, 15 years old and a hardcore programmer :)
-
 _Overview_
 - Contributed to [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/cyyever/pytorch/commit/f4b02ca01577e8c49e1650dd05643cf1d2b56310)
 
