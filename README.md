@@ -27,4 +27,4 @@ _Some info:_
 
 **Contact me:**
 
-Discord : KittyBorgX#1415
+(inactive) Discord : KittyBorgX#1415
