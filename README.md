@@ -12,7 +12,7 @@
 </p>
 
 _Overview_
-- Contributed to [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/cyyever/pytorch/commit/f4b02ca01577e8c49e1650dd05643cf1d2b56310)
+- Contributed to [The Rust Programming Language](https://github.com/rust-lang/rust/pull/107956) [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/cyyever/pytorch/commit/f4b02ca01577e8c49e1650dd05643cf1d2b56310)
 
 _Some info:_ 
 - 🔭 I’m currently working on [fir lang](https://github.com/KittyBorgX/fir-lang)
