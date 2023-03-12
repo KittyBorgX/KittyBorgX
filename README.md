@@ -24,6 +24,7 @@ _Some info:_
 - Rust
 - Python
 - TypeScript
+- C++
 
 **Contact me:**
 
