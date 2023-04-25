@@ -11,6 +11,8 @@
   <img src="https://readme-typing-svg.herokuapp.com?color=%2356D6F7&center=true&vCenter=true&lines=Open+source+developer;Self+taught+programmer;Always+learning+something+new"></a>
 </p>
 
+Member of @rust-lang
+
 _Overview_
 - Contributed to [The Rust Programming Language](https://github.com/rust-lang/rust/pull/107956) , [The Python Discord Site](https://github.com/python-discord/site/pull/569) , [Sir Lancebot](https://github.com/python-discord/sir-lancebot/pull/822) , [Pytorch](https://github.com/pytorch/pytorch/commit/478069d6f2ee4878d129425219bea9a23ee566f0)
 
