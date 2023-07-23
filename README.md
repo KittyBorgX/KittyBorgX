@@ -30,4 +30,4 @@ _Some info:_
 
 **Contact me:**
 
-(inactive) Discord : KittyBorgX#1415
+(inactive) Discord : kittyborgx
