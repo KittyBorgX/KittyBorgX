@@ -81,7 +81,7 @@
   <circle cx="1091" cy="38.5" r="7" fill="#fb4934" filter="url(#glow)"/>
   <text x="1110" y="45" class="header-live">LIVE</text>
   <text x="1215" y="42" class="header-meta">BENGALURU, IN</text>
-  <text x="1568" y="42" text-anchor="end" class="header-meta">UTC+5:30      09:45</text>
+  <text x="1568" y="42" text-anchor="end" class="header-meta">UTC+5:30      09:53</text>
 
   
     <g>
@@ -175,7 +175,7 @@
 
   <text x="795" y="210" class="neo-user">KittyBorgX@github</text>
   <text x="795" y="233" class="neo-rule">──────────────────────────────────</text>
-  <text x="795" y="254" class="neo-label">User</text><text x="918" y="254" class="neo-value">KittyBorgX@github</text><text x="795" y="279" class="neo-label">Name</text><text x="918" y="279" class="neo-value">Krishna Ramasimha</text><text x="795" y="304" class="neo-label">Role</text><text x="918" y="304" class="neo-value">Student / Builder</text><text x="795" y="329" class="neo-label">Location</text><text x="918" y="329" class="neo-value">Bengaluru, India</text><text x="795" y="354" class="neo-label">LinkedIn</text><text x="918" y="354" class="neo-value">linkedin.com/in/krishna-ram…</text><text x="795" y="379" class="neo-label">Discord</text><text x="918" y="379" class="neo-value">@your-discord</text><text x="795" y="404" class="neo-label">Building</text><text x="918" y="404" class="neo-value">coming soon :)</text><text x="795" y="429" class="neo-label">Hobbies</text><text x="918" y="429" class="neo-value">chess | guitar | cooking | …</text><text x="795" y="454" class="neo-label">OS</text><text x="918" y="454" class="neo-value">macOS</text><text x="795" y="479" class="neo-label">Host</text><text x="918" y="479" class="neo-value">MacBook Pro · M2 Max</text><text x="795" y="504" class="neo-label">Shell</text><text x="918" y="504" class="neo-value">zsh</text><text x="795" y="529" class="neo-label">Editor</text><text x="918" y="529" class="neo-value">zed | helix | vscode</text><text x="795" y="554" class="neo-label">Languages</text><text x="918" y="554" class="neo-value">rust | python | ts/js / c++</text><text x="795" y="579" class="neo-label">Status</text><text x="918" y="579" class="neo-value">push mode enabled</text>
+  <text x="795" y="254" class="neo-label">User</text><text x="918" y="254" class="neo-value">KittyBorgX@github</text><text x="795" y="279" class="neo-label">Name</text><text x="918" y="279" class="neo-value">Krishna Ramasimha</text><text x="795" y="304" class="neo-label">Role</text><text x="918" y="304" class="neo-value">Student / Builder</text><text x="795" y="329" class="neo-label">Location</text><text x="918" y="329" class="neo-value">Bengaluru, India</text><text x="795" y="354" class="neo-label">LinkedIn</text><text x="918" y="354" class="neo-value">linkedin.com/in/krishna-ram…</text><text x="795" y="379" class="neo-label">Discord</text><text x="918" y="379" class="neo-value">kittyborgx</text><text x="795" y="404" class="neo-label">Building</text><text x="918" y="404" class="neo-value">coming soon :)</text><text x="795" y="429" class="neo-label">Hobbies</text><text x="918" y="429" class="neo-value">chess | guitar | cooking | …</text><text x="795" y="454" class="neo-label">OS</text><text x="918" y="454" class="neo-value">macOS</text><text x="795" y="479" class="neo-label">Host</text><text x="918" y="479" class="neo-value">MacBook Pro · M2 Max</text><text x="795" y="504" class="neo-label">Shell</text><text x="918" y="504" class="neo-value">zsh</text><text x="795" y="529" class="neo-label">Editor</text><text x="918" y="529" class="neo-value">zed | helix | vscode</text><text x="795" y="554" class="neo-label">Languages</text><text x="918" y="554" class="neo-value">rust | python | ts/js / c++</text><text x="795" y="579" class="neo-label">Status</text><text x="918" y="579" class="neo-value">push mode enabled</text>
 
   
     <g>
@@ -227,7 +227,7 @@
     <g>
       <path d="M1170 766V824" stroke="#504945" stroke-width="1"/>
       <text x="988" y="777" class="stat-label">COMMITS</text>
-      <text x="988" y="806" class="stat-value" fill="#fb4934">5</text>
+      <text x="988" y="806" class="stat-value" fill="#fb4934">8</text>
       <text x="988" y="824" class="stat-sub">LAPS COMPLETED</text>
     </g>
   
