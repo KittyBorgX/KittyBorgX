@@ -81,7 +81,7 @@
   <circle cx="1091" cy="38.5" r="7" fill="#f7768e" filter="url(#glow)"/>
   <text x="1110" y="45" class="header-live">LIVE</text>
   <text x="1215" y="42" class="header-meta">BENGALURU, IN</text>
-  <text x="1568" y="42" text-anchor="end" class="header-meta">UTC+5:30      10:30</text>
+  <text x="1568" y="42" text-anchor="end" class="header-meta">UTC+5:30      09:45</text>
 
   
     <g>
@@ -113,8 +113,8 @@
         <text x="86" y="300" class="tower-name">syncquill</text>
         <circle cx="90" cy="321" r="4" fill="#3572A5"/>
         <text x="102" y="326" class="tower-stack">Python</text>
-        <text x="272" y="302" text-anchor="end" class="tower-gap">+3h 42m</text>
-        <text x="334" y="302" text-anchor="end" class="tower-gap leader">+3h 42m</text>
+        <text x="272" y="302" text-anchor="end" class="tower-gap">+237d 01h</text>
+        <text x="334" y="302" text-anchor="end" class="tower-gap leader">+237d 01h</text>
       </g></a><a href="https://github.com/KittyBorgX/omr_autofill">
       <g>
         <rect x="42" y="364" width="296" height="72" rx="8" fill="#1a1b26" stroke="#3b4261"/>
@@ -123,8 +123,8 @@
         <text x="86" y="392" class="tower-name">omr_autof…</text>
         <circle cx="90" cy="413" r="4" fill="#3178c6"/>
         <text x="102" y="418" class="tower-stack">TypeScript</text>
-        <text x="272" y="394" text-anchor="end" class="tower-gap">+12h 33m</text>
-        <text x="334" y="394" text-anchor="end" class="tower-gap leader">+16h 15m</text>
+        <text x="272" y="394" text-anchor="end" class="tower-gap">+129d 23h</text>
+        <text x="334" y="394" text-anchor="end" class="tower-gap leader">+367d 01h</text>
       </g></a><a href="https://github.com/KittyBorgX/svelte-google-oauth">
       <g>
         <rect x="42" y="456" width="296" height="72" rx="8" fill="#1a1b26" stroke="#3b4261"/>
@@ -133,8 +133,8 @@
         <text x="86" y="484" class="tower-name">svelte-go…</text>
         <circle cx="90" cy="505" r="4" fill="#3178c6"/>
         <text x="102" y="510" class="tower-stack">TypeScript</text>
-        <text x="272" y="486" text-anchor="end" class="tower-gap">+2d 08h</text>
-        <text x="334" y="486" text-anchor="end" class="tower-gap leader">+3d 00h</text>
+        <text x="272" y="486" text-anchor="end" class="tower-gap">+37d 01h</text>
+        <text x="334" y="486" text-anchor="end" class="tower-gap leader">+404d 02h</text>
       </g></a><a href="https://github.com/KittyBorgX/fold">
       <g>
         <rect x="42" y="548" width="296" height="72" rx="8" fill="#1a1b26" stroke="#3b4261"/>
@@ -143,18 +143,18 @@
         <text x="86" y="576" class="tower-name">fold</text>
         <circle cx="90" cy="597" r="4" fill="#3572A5"/>
         <text x="102" y="602" class="tower-stack">Python</text>
-        <text x="272" y="578" text-anchor="end" class="tower-gap">+1d 05h</text>
-        <text x="334" y="578" text-anchor="end" class="tower-gap leader">+4d 05h</text>
-      </g></a><a href="https://github.com/KittyBorgX/fold">
+        <text x="272" y="578" text-anchor="end" class="tower-gap">+329d 03h</text>
+        <text x="334" y="578" text-anchor="end" class="tower-gap leader">+733d 06h</text>
+      </g></a><a href="https://github.com/KittyBorgX/fir-lang">
       <g>
         <rect x="42" y="640" width="296" height="72" rx="8" fill="#1a1b26" stroke="#3b4261"/>
         <rect x="42" y="640" width="32" height="72" rx="8" fill="#f7768e"/>
         <text x="58" y="683" text-anchor="middle" class="tower-position">6</text>
-        <text x="86" y="668" class="tower-name">fold2</text>
-        <circle cx="90" cy="689" r="4" fill="#3572A5"/>
-        <text x="102" y="694" class="tower-stack">Python</text>
-        <text x="272" y="670" text-anchor="end" class="tower-gap">+0m</text>
-        <text x="334" y="670" text-anchor="end" class="tower-gap leader">+4d 05h</text>
+        <text x="86" y="668" class="tower-name">fir-lang</text>
+        <circle cx="90" cy="689" r="4" fill="#dea584"/>
+        <text x="102" y="694" class="tower-stack">Rust</text>
+        <text x="272" y="670" text-anchor="end" class="tower-gap">+192d 15h</text>
+        <text x="334" y="670" text-anchor="end" class="tower-gap leader">+925d 22h</text>
       </g></a>
 
   
@@ -213,7 +213,7 @@
     <g>
       <path d="M770 766V824" stroke="#3b4261" stroke-width="1"/>
       <text x="588" y="777" class="stat-label">STARS</text>
-      <text x="588" y="806" class="stat-value" fill="#e0af68">50</text>
+      <text x="588" y="806" class="stat-value" fill="#e0af68">34</text>
       <text x="588" y="824" class="stat-sub">CHAMPIONSHIP POINTS</text>
     </g>
   
@@ -227,21 +227,21 @@
     <g>
       <path d="M1170 766V824" stroke="#3b4261" stroke-width="1"/>
       <text x="988" y="777" class="stat-label">COMMITS</text>
-      <text x="988" y="806" class="stat-value" fill="#f7768e">1,284</text>
+      <text x="988" y="806" class="stat-value" fill="#f7768e">5</text>
       <text x="988" y="824" class="stat-sub">LAPS COMPLETED</text>
     </g>
   
     <g>
       <path d="M1370 766V824" stroke="#3b4261" stroke-width="1"/>
       <text x="1188" y="777" class="stat-label">PULL REQUESTS</text>
-      <text x="1188" y="806" class="stat-value" fill="#9ece6a">24</text>
+      <text x="1188" y="806" class="stat-value" fill="#9ece6a">0</text>
       <text x="1188" y="824" class="stat-sub">OVERTAKES</text>
     </g>
   
     <g>
       <path d="M1569 766V824" stroke="#3b4261" stroke-width="1"/>
       <text x="1388" y="777" class="stat-label">CURRENT STREAK</text>
-      <text x="1388" y="806" class="stat-value" fill="#ff9e64">12 days</text>
+      <text x="1388" y="806" class="stat-value" fill="#ff9e64">1 days</text>
       <text x="1388" y="824" class="stat-sub">CURRENT STINT</text>
     </g>
   <text x="1570" y="888" text-anchor="end" class="footer">KITTYBORGX / BUILD / LEARN / RACE / REPEAT</text>
