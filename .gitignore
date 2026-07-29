@@ -1,0 +1,4 @@
+.DS_Store
+node_modules/
+# Temporary source image used only when the avatar cache is invalidated.
+data/avatar-source.jpg

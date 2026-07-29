@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">KittyBorgX GitHub profile</title>
+  <desc id="desc">F1 broadcast layout with a non-ASCII timing tower, Andrew-style neofetch panel, F1-style timing tower, a compact single-message team radio card and GitHub career stats.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1d2021"/>
+      <stop offset="1" stop-color="#282828"/>
+    </linearGradient>
+    <linearGradient id="headerFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#cc241d" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#32302f" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#1d2021" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="radioBars" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fb4934" stop-opacity="1"/>
+      <stop offset="1" stop-color="#fb4934" stop-opacity=".12"/>
+    </linearGradient>
+    <filter id="radioGlow" x="-20%" y="-200%" width="140%" height="500%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3.5H4" stroke="#ebdbb2" stroke-opacity="0.018"/>
+    </pattern>
+    <style>
+      text { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .panel { fill: #282828; stroke: #504945; stroke-width: 1.4; }
+      .separator { stroke: #504945; stroke-width: 1; opacity: .78; }
+      .panel-title { fill: #ebdbb2; font-size: 17px; font-weight: 800; letter-spacing: 1.4px; }
+      .header-brand { fill: #ebdbb2; font-size: 24px; font-weight: 850; letter-spacing: .2px; }
+      .header-sub { fill: #d5c4a1; font-size: 17px; font-weight: 800; letter-spacing: 1.2px; }
+      .header-meta { fill: #d5c4a1; font-size: 16px; font-weight: 700; letter-spacing: .8px; }
+      .header-live { fill: #fb4934; font-size: 19px; font-weight: 900; letter-spacing: 1px; }
+      .terminal-title { fill: #d5c4a1; font-size: 16px; }
+      .ascii-char { font-size: 13.7px; font-weight: 800; }
+      .neo-user { fill: #ebdbb2; font-size: 18px; font-weight: 850; }
+      .neo-rule { fill: #928374; font-size: 15px; }
+      .neo-label { fill: #83a598; font-size: 13.4px; font-weight: 850; }
+      .neo-value { fill: #ebdbb2; font-size: 13.4px; }
+      .prompt { fill: #b8bb26; font-size: 17px; font-weight: 700; }
+      .tower-header { fill: #d5c4a1; font-size: 10.5px; font-weight: 900; letter-spacing: .8px; }
+      .tower-position { fill: #1d2021; font-size: 24px; font-weight: 950; }
+      .tower-name { fill: #ebdbb2; font-size: 15px; font-weight: 850; }
+      .tower-stack { fill: #928374; font-size: 12px; }
+      .tower-gap { fill: #ebdbb2; font-size: 10.5px; font-weight: 850; }
+      .tower-gap.leader { fill: #fb4934; }
+      .tower-meta { fill: #928374; font-size: 13px; }
+      .radio-brand { fill: #fb4934; font-family: Arial, Helvetica, sans-serif; font-size: 29px; font-weight: 900; letter-spacing: -1px; }
+      .radio-word { fill: #ebdbb2; font-family: Arial, Helvetica, sans-serif; font-size: 28px; font-weight: 900; letter-spacing: -.8px; }
+      .radio-number { fill: #fb4934; font-family: Arial, Helvetica, sans-serif; font-size: 82px; font-weight: 900; letter-spacing: -5px; }
+      .radio-badge { fill: #1d2021; font-family: Arial, Helvetica, sans-serif; font-size: 11px; font-weight: 900; }
+      .radio-quote-red { fill: #fb4934; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 850; letter-spacing: .3px; }
+      .radio-quote-white { fill: #ebdbb2; font-family: Arial, Helvetica, sans-serif; font-size: 20px; font-weight: 850; letter-spacing: .3px; }
+      .radio-footer { fill: #928374; font-size: 10px; font-weight: 850; letter-spacing: .7px; }
+      .radio-kicker { fill: #928374; font-size: 12px; font-weight: 800; letter-spacing: 1px; }
+      .quote-line { fill: #d5c4a1; font-size: 13px; font-style: italic; }
+      .stat-label { fill: #928374; font-size: 12px; font-weight: 800; letter-spacing: .6px; }
+      .stat-value { font-size: 27px; font-weight: 900; }
+      .stat-sub { fill: #928374; font-size: 10px; font-weight: 700; letter-spacing: .5px; }
+      .footer { fill: #928374; font-size: 11px; font-weight: 800; letter-spacing: 1.3px; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#background)"/>
+  <rect width="1600" height="900" fill="url(#scanlines)"/>
+
+  <rect x="0" y="0" width="1600" height="74" fill="#1d2021"/>
+  <path d="M0 72H1600" stroke="#cc241d" stroke-width="2"/>
+  <text x="30" y="44" class="header-brand">KittyBorgX</text>
+  <text x="200" y="44" class="header-sub">GITHUB GRAND PRIX</text>
+  <g transform="translate(420 23) skewX(-18)">
+    <rect x="0" y="0" width="16" height="16" fill="#928374" opacity=".75"/><rect x="18" y="15" width="16" height="16" fill="#ebdbb2" opacity=".75"/><rect x="36" y="0" width="16" height="16" fill="#928374" opacity=".75"/><rect x="54" y="15" width="16" height="16" fill="#ebdbb2" opacity=".75"/>
+  </g>
+  <text x="800" y="43" class="header-meta">SESSION: <tspan fill="#fb4934" font-weight="900">DEVELOPMENT</tspan></text>
+  <rect x="1070" y="19" width="120" height="37" rx="8" fill="#fb4934" fill-opacity=".08" stroke="#fb4934"/>
+  <circle cx="1091" cy="38.5" r="7" fill="#fb4934" filter="url(#glow)"/>
+  <text x="1110" y="45" class="header-live">LIVE</text>
+  <text x="1215" y="42" class="header-meta">BENGALURU, IN</text>
+  <text x="1568" y="42" text-anchor="end" class="header-meta">UTC+5:30      10:30</text>
+
+  
+    <g>
+      <rect class="panel" x="30" y="94" width="320" height="634" rx="10"/>
+      <path d="M31 136H349" class="separator"/>
+      <path d="M42 94H218L203 126H42Z" fill="#32302f"/>
+      <text x="48" y="121" class="panel-title">TIMING TOWER</text>
+    </g>
+  
+    <rect x="42" y="148" width="296" height="26" rx="6" fill="#32302f" stroke="#504945"/>
+    <text x="52" y="166" class="tower-header">P</text>
+    <text x="92" y="166" class="tower-header">REPOSITORY</text>
+    <text x="272" y="166" text-anchor="end" class="tower-header">INT</text>
+    <text x="334" y="166" text-anchor="end" class="tower-header">LEADER</text><a href="https://github.com/KittyBorgX/lectov">
+      <g>
+        <rect x="42" y="180" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="180" width="32" height="72" rx="8" fill="#fb4934"/>
+        <text x="58" y="223" text-anchor="middle" class="tower-position">1</text>
+        <text x="86" y="208" class="tower-name">lectov</text>
+        <circle cx="90" cy="229" r="4" fill="#e34c26"/>
+        <text x="102" y="234" class="tower-stack">HTML</text>
+        <text x="272" y="210" text-anchor="end" class="tower-gap">—</text>
+        <text x="334" y="210" text-anchor="end" class="tower-gap leader">+0.000</text>
+      </g></a><a href="https://github.com/KittyBorgX/syncquill">
+      <g>
+        <rect x="42" y="272" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="272" width="32" height="72" rx="8" fill="#fabd2f"/>
+        <text x="58" y="315" text-anchor="middle" class="tower-position">2</text>
+        <text x="86" y="300" class="tower-name">syncquill</text>
+        <circle cx="90" cy="321" r="4" fill="#3572A5"/>
+        <text x="102" y="326" class="tower-stack">Python</text>
+        <text x="272" y="302" text-anchor="end" class="tower-gap">+3h 42m</text>
+        <text x="334" y="302" text-anchor="end" class="tower-gap leader">+3h 42m</text>
+      </g></a><a href="https://github.com/KittyBorgX/omr_autofill">
+      <g>
+        <rect x="42" y="364" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="364" width="32" height="72" rx="8" fill="#b8bb26"/>
+        <text x="58" y="407" text-anchor="middle" class="tower-position">3</text>
+        <text x="86" y="392" class="tower-name">omr_autof…</text>
+        <circle cx="90" cy="413" r="4" fill="#3178c6"/>
+        <text x="102" y="418" class="tower-stack">TypeScript</text>
+        <text x="272" y="394" text-anchor="end" class="tower-gap">+12h 33m</text>
+        <text x="334" y="394" text-anchor="end" class="tower-gap leader">+16h 15m</text>
+      </g></a><a href="https://github.com/KittyBorgX/svelte-google-oauth">
+      <g>
+        <rect x="42" y="456" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="456" width="32" height="72" rx="8" fill="#83a598"/>
+        <text x="58" y="499" text-anchor="middle" class="tower-position">4</text>
+        <text x="86" y="484" class="tower-name">svelte-go…</text>
+        <circle cx="90" cy="505" r="4" fill="#3178c6"/>
+        <text x="102" y="510" class="tower-stack">TypeScript</text>
+        <text x="272" y="486" text-anchor="end" class="tower-gap">+2d 08h</text>
+        <text x="334" y="486" text-anchor="end" class="tower-gap leader">+3d 00h</text>
+      </g></a><a href="https://github.com/KittyBorgX/fold">
+      <g>
+        <rect x="42" y="548" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="548" width="32" height="72" rx="8" fill="#d3869b"/>
+        <text x="58" y="591" text-anchor="middle" class="tower-position">5</text>
+        <text x="86" y="576" class="tower-name">fold</text>
+        <circle cx="90" cy="597" r="4" fill="#3572A5"/>
+        <text x="102" y="602" class="tower-stack">Python</text>
+        <text x="272" y="578" text-anchor="end" class="tower-gap">+1d 05h</text>
+        <text x="334" y="578" text-anchor="end" class="tower-gap leader">+4d 05h</text>
+      </g></a><a href="https://github.com/KittyBorgX/fold">
+      <g>
+        <rect x="42" y="640" width="296" height="72" rx="8" fill="#32302f" stroke="#504945"/>
+        <rect x="42" y="640" width="32" height="72" rx="8" fill="#fb4934"/>
+        <text x="58" y="683" text-anchor="middle" class="tower-position">6</text>
+        <text x="86" y="668" class="tower-name">fold2</text>
+        <circle cx="90" cy="689" r="4" fill="#3572A5"/>
+        <text x="102" y="694" class="tower-stack">Python</text>
+        <text x="272" y="670" text-anchor="end" class="tower-gap">+0m</text>
+        <text x="334" y="670" text-anchor="end" class="tower-gap leader">+4d 05h</text>
+      </g></a>
+
+  
+    <g>
+      <rect class="panel" x="370" y="94" width="850" height="634" rx="10"/>
+      
+      
+      
+    </g>
+  <circle cx="396" cy="116" r="7" fill="#fb4934"/>
+  <circle cx="419" cy="116" r="7" fill="#fabd2f"/>
+  <circle cx="442" cy="116" r="7" fill="#b8bb26"/>
+  <text x="477" y="122" class="terminal-title">kittyborgx@github ~</text>
+
+  <text x="415" y="166" class="prompt">kittyborgx@github ~ $ neofetch</text>
+  <text x="415.0" y="224.0" class="ascii-char" fill="#f1ecd5">.</text><text x="424.1" y="224.0" class="ascii-char" fill="#f3efd6">.</text><text x="433.2" y="224.0" class="ascii-char" fill="#f4f0d7">.</text><text x="442.3" y="224.0" class="ascii-char" fill="#edeacf">.</text><text x="451.4" y="224.0" class="ascii-char" fill="#d7d4b7">-</text><text x="460.5" y="224.0" class="ascii-char" fill="#c8c4ab">=</text><text x="469.6" y="224.0" class="ascii-char" fill="#cfccac">-</text><text x="478.7" y="224.0" class="ascii-char" fill="#c3c1a0">=</text><text x="487.8" y="224.0" class="ascii-char" fill="#babd9f">=</text><text x="496.9" y="224.0" class="ascii-char" fill="#cfd6bb">-</text><text x="506.0" y="224.0" class="ascii-char" fill="#adb69f">+</text><text x="515.1" y="224.0" class="ascii-char" fill="#a5b398">+</text><text x="524.2" y="224.0" class="ascii-char" fill="#c0cfb0">-</text><text x="533.3" y="224.0" class="ascii-char" fill="#dce2c0">:</text><text x="542.4" y="224.0" class="ascii-char" fill="#bbc89a">=</text><text x="551.5" y="224.0" class="ascii-char" fill="#bbc89a">=</text><text x="560.6" y="224.0" class="ascii-char" fill="#d9dbc0">:</text><text x="569.7" y="224.0" class="ascii-char" fill="#e1d9ca">:</text><text x="578.8" y="224.0" class="ascii-char" fill="#ece3c9">.</text><text x="587.9" y="224.0" class="ascii-char" fill="#ece1c3">:</text><text x="597.0" y="224.0" class="ascii-char" fill="#e5dec2">:</text><text x="606.1" y="224.0" class="ascii-char" fill="#aeb694">+</text><text x="615.2" y="224.0" class="ascii-char" fill="#9daf8c">*</text><text x="624.3" y="224.0" class="ascii-char" fill="#91a385">*</text><text x="633.4" y="224.0" class="ascii-char" fill="#98a288">*</text><text x="642.5" y="224.0" class="ascii-char" fill="#b5b8a0">+</text><text x="415.0" y="240.1" class="ascii-char" fill="#efe9d1">.</text><text x="424.1" y="240.1" class="ascii-char" fill="#f1ecd2">.</text><text x="433.2" y="240.1" class="ascii-char" fill="#f3edd3">.</text><text x="442.3" y="240.1" class="ascii-char" fill="#f5efd4">.</text><text x="451.4" y="240.1" class="ascii-char" fill="#f6f1d5">.</text><text x="469.6" y="240.1" class="ascii-char" fill="#f5f2d6">.</text><text x="478.7" y="240.1" class="ascii-char" fill="#dcdcc2">:</text><text x="487.8" y="240.1" class="ascii-char" fill="#c5c4ad">=</text><text x="496.9" y="240.1" class="ascii-char" fill="#cccbb5">-</text><text x="506.0" y="240.1" class="ascii-char" fill="#c5c6af">=</text><text x="515.1" y="240.1" class="ascii-char" fill="#afb598">+</text><text x="524.2" y="240.1" class="ascii-char" fill="#c2c9a9">=</text><text x="533.3" y="240.1" class="ascii-char" fill="#d5d3b7">-</text><text x="542.4" y="240.1" class="ascii-char" fill="#c5c3a9">=</text><text x="551.5" y="240.1" class="ascii-char" fill="#adb097">+</text><text x="560.6" y="240.1" class="ascii-char" fill="#aeb8a0">+</text><text x="569.7" y="240.1" class="ascii-char" fill="#c9d2b7">-</text><text x="578.8" y="240.1" class="ascii-char" fill="#d1d0b2">-</text><text x="587.9" y="240.1" class="ascii-char" fill="#c9c5a8">=</text><text x="597.0" y="240.1" class="ascii-char" fill="#d6d9b5">:</text><text x="606.1" y="240.1" class="ascii-char" fill="#c3cfa6">-</text><text x="615.2" y="240.1" class="ascii-char" fill="#9fb48c">+</text><text x="624.3" y="240.1" class="ascii-char" fill="#8ea77d">*</text><text x="633.4" y="240.1" class="ascii-char" fill="#8da37c">#</text><text x="642.5" y="240.1" class="ascii-char" fill="#91a481">*</text><text x="415.0" y="256.2" class="ascii-char" fill="#efe6ca">.</text><text x="424.1" y="256.2" class="ascii-char" fill="#f1e8cc">.</text><text x="433.2" y="256.2" class="ascii-char" fill="#f3ead0">.</text><text x="442.3" y="256.2" class="ascii-char" fill="#f5ecd4">.</text><text x="451.4" y="256.2" class="ascii-char" fill="#f6edd5">.</text><text x="460.5" y="256.2" class="ascii-char" fill="#f6edd6">.</text><text x="469.6" y="256.2" class="ascii-char" fill="#f6efd7">.</text><text x="487.8" y="256.2" class="ascii-char" fill="#fbf0dc">.</text><text x="496.9" y="256.2" class="ascii-char" fill="#f2e6d5">.</text><text x="506.0" y="256.2" class="ascii-char" fill="#d6cfbd">-</text><text x="515.1" y="256.2" class="ascii-char" fill="#babba4">=</text><text x="524.2" y="256.2" class="ascii-char" fill="#a7ae95">*</text><text x="533.3" y="256.2" class="ascii-char" fill="#b9aeae">+</text><text x="542.4" y="256.2" class="ascii-char" fill="#d4acc6">+</text><text x="551.5" y="256.2" class="ascii-char" fill="#daabcd">+</text><text x="560.6" y="256.2" class="ascii-char" fill="#c6b3bf">+</text><text x="569.7" y="256.2" class="ascii-char" fill="#9ea999">*</text><text x="578.8" y="256.2" class="ascii-char" fill="#92a48d">*</text><text x="587.9" y="256.2" class="ascii-char" fill="#8c9581">#</text><text x="597.0" y="256.2" class="ascii-char" fill="#999c83">#</text><text x="606.1" y="256.2" class="ascii-char" fill="#9fa28c">*</text><text x="615.2" y="256.2" class="ascii-char" fill="#b3b59d">+</text><text x="624.3" y="256.2" class="ascii-char" fill="#adb197">+</text><text x="633.4" y="256.2" class="ascii-char" fill="#929c7f">#</text><text x="642.5" y="256.2" class="ascii-char" fill="#919b7f">#</text><text x="415.0" y="272.3" class="ascii-char" fill="#ede4c6">.</text><text x="424.1" y="272.3" class="ascii-char" fill="#efe5c5">.</text><text x="433.2" y="272.3" class="ascii-char" fill="#f1e7c5">.</text><text x="442.3" y="272.3" class="ascii-char" fill="#f2e9c8">.</text><text x="451.4" y="272.3" class="ascii-char" fill="#f4e9ca">.</text><text x="460.5" y="272.3" class="ascii-char" fill="#f4eace">.</text><text x="469.6" y="272.3" class="ascii-char" fill="#ede4c6">.</text><text x="478.7" y="272.3" class="ascii-char" fill="#e0d4bb">-</text><text x="487.8" y="272.3" class="ascii-char" fill="#c9b8ad">=</text><text x="496.9" y="272.3" class="ascii-char" fill="#b1a09a">*</text><text x="506.0" y="272.3" class="ascii-char" fill="#b4ac9f">+</text><text x="515.1" y="272.3" class="ascii-char" fill="#adaf9c">+</text><text x="524.2" y="272.3" class="ascii-char" fill="#828e76">%</text><text x="533.3" y="272.3" class="ascii-char" fill="#7d8c78">%</text><text x="542.4" y="272.3" class="ascii-char" fill="#878984">%</text><text x="551.5" y="272.3" class="ascii-char" fill="#8f918a">#</text><text x="560.6" y="272.3" class="ascii-char" fill="#95a78a">*</text><text x="569.7" y="272.3" class="ascii-char" fill="#8ea581">*</text><text x="578.8" y="272.3" class="ascii-char" fill="#a0ab8a">*</text><text x="587.9" y="272.3" class="ascii-char" fill="#98a185">*</text><text x="597.0" y="272.3" class="ascii-char" fill="#868f78">%</text><text x="606.1" y="272.3" class="ascii-char" fill="#a3a48c">*</text><text x="615.2" y="272.3" class="ascii-char" fill="#c2bc9e">=</text><text x="624.3" y="272.3" class="ascii-char" fill="#b5b08f">+</text><text x="633.4" y="272.3" class="ascii-char" fill="#a2a582">*</text><text x="642.5" y="272.3" class="ascii-char" fill="#97a280">*</text><text x="415.0" y="288.4" class="ascii-char" fill="#eddec0">:</text><text x="424.1" y="288.4" class="ascii-char" fill="#eddfc0">:</text><text x="433.2" y="288.4" class="ascii-char" fill="#f0e2c1">:</text><text x="442.3" y="288.4" class="ascii-char" fill="#f0e1c2">:</text><text x="451.4" y="288.4" class="ascii-char" fill="#e2d2b8">-</text><text x="460.5" y="288.4" class="ascii-char" fill="#bfae9a">+</text><text x="469.6" y="288.4" class="ascii-char" fill="#baab96">+</text><text x="478.7" y="288.4" class="ascii-char" fill="#b8a99c">+</text><text x="487.8" y="288.4" class="ascii-char" fill="#d0bec2">=</text><text x="496.9" y="288.4" class="ascii-char" fill="#dfced4">-</text><text x="506.0" y="288.4" class="ascii-char" fill="#b9aea8">+</text><text x="515.1" y="288.4" class="ascii-char" fill="#bbb7a7">+</text><text x="524.2" y="288.4" class="ascii-char" fill="#bec1af">=</text><text x="533.3" y="288.4" class="ascii-char" fill="#99a98c">*</text><text x="542.4" y="288.4" class="ascii-char" fill="#839476">%</text><text x="551.5" y="288.4" class="ascii-char" fill="#798c72">%</text><text x="560.6" y="288.4" class="ascii-char" fill="#747e72">@</text><text x="569.7" y="288.4" class="ascii-char" fill="#767f72">@</text><text x="578.8" y="288.4" class="ascii-char" fill="#7b8672">%</text><text x="587.9" y="288.4" class="ascii-char" fill="#778173">@</text><text x="597.0" y="288.4" class="ascii-char" fill="#778374">@</text><text x="606.1" y="288.4" class="ascii-char" fill="#8c967e">#</text><text x="615.2" y="288.4" class="ascii-char" fill="#8c907d">%</text><text x="624.3" y="288.4" class="ascii-char" fill="#8e8e79">%</text><text x="633.4" y="288.4" class="ascii-char" fill="#828175">@</text><text x="642.5" y="288.4" class="ascii-char" fill="#7b7b72">@</text><text x="415.0" y="304.5" class="ascii-char" fill="#f1deb4">:</text><text x="424.1" y="304.5" class="ascii-char" fill="#edddb6">:</text><text x="433.2" y="304.5" class="ascii-char" fill="#e9dbb9">:</text><text x="442.3" y="304.5" class="ascii-char" fill="#d9cbb0">-</text><text x="451.4" y="304.5" class="ascii-char" fill="#b2a08d">*</text><text x="460.5" y="304.5" class="ascii-char" fill="#a68f7f">#</text><text x="469.6" y="304.5" class="ascii-char" fill="#b7a094">*</text><text x="478.7" y="304.5" class="ascii-char" fill="#c3aeac">+</text><text x="487.8" y="304.5" class="ascii-char" fill="#ccb8c2">=</text><text x="496.9" y="304.5" class="ascii-char" fill="#d9c8d0">-</text><text x="506.0" y="304.5" class="ascii-char" fill="#e6d7d5">:</text><text x="515.1" y="304.5" class="ascii-char" fill="#e2d6d0">:</text><text x="533.3" y="304.5" class="ascii-char" fill="#c1c3b6">=</text><text x="542.4" y="304.5" class="ascii-char" fill="#727272">@</text><text x="551.5" y="304.5" class="ascii-char" fill="#7a8d74">%</text><text x="560.6" y="304.5" class="ascii-char" fill="#7f9875">#</text><text x="569.7" y="304.5" class="ascii-char" fill="#768673">%</text><text x="578.8" y="304.5" class="ascii-char" fill="#788173">@</text><text x="587.9" y="304.5" class="ascii-char" fill="#798277">@</text><text x="597.0" y="304.5" class="ascii-char" fill="#7c8c7c">%</text><text x="606.1" y="304.5" class="ascii-char" fill="#768874">%</text><text x="615.2" y="304.5" class="ascii-char" fill="#748072">@</text><text x="624.3" y="304.5" class="ascii-char" fill="#727772">@</text><text x="633.4" y="304.5" class="ascii-char" fill="#787972">@</text><text x="642.5" y="304.5" class="ascii-char" fill="#7d7972">@</text><text x="415.0" y="320.6" class="ascii-char" fill="#c5b199">+</text><text x="424.1" y="320.6" class="ascii-char" fill="#c8b9a3">=</text><text x="433.2" y="320.6" class="ascii-char" fill="#cac2b1">=</text><text x="442.3" y="320.6" class="ascii-char" fill="#beb8ab">+</text><text x="451.4" y="320.6" class="ascii-char" fill="#9f938a">#</text><text x="460.5" y="320.6" class="ascii-char" fill="#b8a49c">*</text><text x="469.6" y="320.6" class="ascii-char" fill="#b8a39b">*</text><text x="478.7" y="320.6" class="ascii-char" fill="#d6c8c4">-</text><text x="487.8" y="320.6" class="ascii-char" fill="#f8ebef">.</text><text x="496.9" y="320.6" class="ascii-char" fill="#f5ebec">.</text><text x="506.0" y="320.6" class="ascii-char" fill="#f6ece5">.</text><text x="524.2" y="320.6" class="ascii-char" fill="#f5e7e9">.</text><text x="533.3" y="320.6" class="ascii-char" fill="#f2eaec">.</text><text x="542.4" y="320.6" class="ascii-char" fill="#979591">#</text><text x="551.5" y="320.6" class="ascii-char" fill="#767873">@</text><text x="560.6" y="320.6" class="ascii-char" fill="#7d8e74">%</text><text x="569.7" y="320.6" class="ascii-char" fill="#798973">%</text><text x="578.8" y="320.6" class="ascii-char" fill="#737872">@</text><text x="587.9" y="320.6" class="ascii-char" fill="#787872">@</text><text x="597.0" y="320.6" class="ascii-char" fill="#7e7b73">@</text><text x="606.1" y="320.6" class="ascii-char" fill="#827972">@</text><text x="615.2" y="320.6" class="ascii-char" fill="#887c72">@</text><text x="624.3" y="320.6" class="ascii-char" fill="#807872">@</text><text x="633.4" y="320.6" class="ascii-char" fill="#8a8774">%</text><text x="642.5" y="320.6" class="ascii-char" fill="#868974">%</text><text x="415.0" y="336.7" class="ascii-char" fill="#99867e">%</text><text x="424.1" y="336.7" class="ascii-char" fill="#827673">@</text><text x="433.2" y="336.7" class="ascii-char" fill="#8d8789">%</text><text x="442.3" y="336.7" class="ascii-char" fill="#9c9ba0">#</text><text x="451.4" y="336.7" class="ascii-char" fill="#bdbac0">=</text><text x="460.5" y="336.7" class="ascii-char" fill="#c3bbc0">=</text><text x="469.6" y="336.7" class="ascii-char" fill="#e4dbdd">:</text><text x="478.7" y="336.7" class="ascii-char" fill="#ebe4e3">.</text><text x="487.8" y="336.7" class="ascii-char" fill="#f0e7e6">.</text><text x="496.9" y="336.7" class="ascii-char" fill="#efe4e0">.</text><text x="506.0" y="336.7" class="ascii-char" fill="#e5d9d2">:</text><text x="515.1" y="336.7" class="ascii-char" fill="#d6c8c1">-</text><text x="524.2" y="336.7" class="ascii-char" fill="#d8ccc5">-</text><text x="533.3" y="336.7" class="ascii-char" fill="#c8c3bb">=</text><text x="542.4" y="336.7" class="ascii-char" fill="#94877e">%</text><text x="551.5" y="336.7" class="ascii-char" fill="#887272">@</text><text x="560.6" y="336.7" class="ascii-char" fill="#867272">@</text><text x="569.7" y="336.7" class="ascii-char" fill="#7b7472">@</text><text x="578.8" y="336.7" class="ascii-char" fill="#747c73">@</text><text x="587.9" y="336.7" class="ascii-char" fill="#787e73">@</text><text x="597.0" y="336.7" class="ascii-char" fill="#7c7972">@</text><text x="606.1" y="336.7" class="ascii-char" fill="#807972">@</text><text x="615.2" y="336.7" class="ascii-char" fill="#867b72">@</text><text x="624.3" y="336.7" class="ascii-char" fill="#847872">@</text><text x="633.4" y="336.7" class="ascii-char" fill="#857c73">@</text><text x="642.5" y="336.7" class="ascii-char" fill="#877d76">@</text><text x="415.0" y="352.8" class="ascii-char" fill="#d3beab">=</text><text x="424.1" y="352.8" class="ascii-char" fill="#a59589">#</text><text x="433.2" y="352.8" class="ascii-char" fill="#99928d">#</text><text x="442.3" y="352.8" class="ascii-char" fill="#a7a7a9">*</text><text x="451.4" y="352.8" class="ascii-char" fill="#e1e5e9">.</text><text x="506.0" y="352.8" class="ascii-char" fill="#aa9c97">*</text><text x="515.1" y="352.8" class="ascii-char" fill="#897372">@</text><text x="524.2" y="352.8" class="ascii-char" fill="#987b73">%</text><text x="533.3" y="352.8" class="ascii-char" fill="#9c7b73">%</text><text x="542.4" y="352.8" class="ascii-char" fill="#937472">@</text><text x="551.5" y="352.8" class="ascii-char" fill="#8d7372">@</text><text x="560.6" y="352.8" class="ascii-char" fill="#8a7472">@</text><text x="569.7" y="352.8" class="ascii-char" fill="#8c7772">@</text><text x="578.8" y="352.8" class="ascii-char" fill="#897772">@</text><text x="587.9" y="352.8" class="ascii-char" fill="#847772">@</text><text x="597.0" y="352.8" class="ascii-char" fill="#837972">@</text><text x="606.1" y="352.8" class="ascii-char" fill="#817872">@</text><text x="615.2" y="352.8" class="ascii-char" fill="#847672">@</text><text x="624.3" y="352.8" class="ascii-char" fill="#877372">@</text><text x="633.4" y="352.8" class="ascii-char" fill="#837272">@</text><text x="642.5" y="352.8" class="ascii-char" fill="#857272">@</text><text x="415.0" y="368.9" class="ascii-char" fill="#c4b5ab">+</text><text x="424.1" y="368.9" class="ascii-char" fill="#ab9e97">*</text><text x="433.2" y="368.9" class="ascii-char" fill="#9c9491">#</text><text x="442.3" y="368.9" class="ascii-char" fill="#b3b0b2">+</text><text x="451.4" y="368.9" class="ascii-char" fill="#e0e2e8">:</text><text x="506.0" y="368.9" class="ascii-char" fill="#c8bab8">=</text><text x="515.1" y="368.9" class="ascii-char" fill="#8f7472">@</text><text x="524.2" y="368.9" class="ascii-char" fill="#987472">@</text><text x="533.3" y="368.9" class="ascii-char" fill="#987372">@</text><text x="542.4" y="368.9" class="ascii-char" fill="#977272">@</text><text x="551.5" y="368.9" class="ascii-char" fill="#947372">@</text><text x="560.6" y="368.9" class="ascii-char" fill="#937472">@</text><text x="569.7" y="368.9" class="ascii-char" fill="#937572">@</text><text x="578.8" y="368.9" class="ascii-char" fill="#907372">@</text><text x="587.9" y="368.9" class="ascii-char" fill="#867272">@</text><text x="597.0" y="368.9" class="ascii-char" fill="#807272">@</text><text x="606.1" y="368.9" class="ascii-char" fill="#7c7272">@</text><text x="615.2" y="368.9" class="ascii-char" fill="#777272">@</text><text x="624.3" y="368.9" class="ascii-char" fill="#7e7272">@</text><text x="633.4" y="368.9" class="ascii-char" fill="#7f7272">@</text><text x="642.5" y="368.9" class="ascii-char" fill="#7d7272">@</text><text x="415.0" y="385.0" class="ascii-char" fill="#c4c1c0">=</text><text x="424.1" y="385.0" class="ascii-char" fill="#a09d9d">*</text><text x="433.2" y="385.0" class="ascii-char" fill="#b0aeaf">+</text><text x="442.3" y="385.0" class="ascii-char" fill="#b5b3b8">+</text><text x="451.4" y="385.0" class="ascii-char" fill="#e4e3ea">.</text><text x="506.0" y="385.0" class="ascii-char" fill="#c5b8ba">=</text><text x="515.1" y="385.0" class="ascii-char" fill="#877272">@</text><text x="524.2" y="385.0" class="ascii-char" fill="#8e7272">@</text><text x="533.3" y="385.0" class="ascii-char" fill="#8c7272">@</text><text x="542.4" y="385.0" class="ascii-char" fill="#877272">@</text><text x="551.5" y="385.0" class="ascii-char" fill="#837272">@</text><text x="560.6" y="385.0" class="ascii-char" fill="#807272">@</text><text x="569.7" y="385.0" class="ascii-char" fill="#7c7272">@</text><text x="578.8" y="385.0" class="ascii-char" fill="#827272">@</text><text x="587.9" y="385.0" class="ascii-char" fill="#827272">@</text><text x="597.0" y="385.0" class="ascii-char" fill="#837273">@</text><text x="606.1" y="385.0" class="ascii-char" fill="#8a7373">@</text><text x="615.2" y="385.0" class="ascii-char" fill="#917674">@</text><text x="624.3" y="385.0" class="ascii-char" fill="#947a76">@</text><text x="633.4" y="385.0" class="ascii-char" fill="#997b77">%</text><text x="642.5" y="385.0" class="ascii-char" fill="#977a76">@</text><text x="415.0" y="401.1" class="ascii-char" fill="#d0c9cb">-</text><text x="424.1" y="401.1" class="ascii-char" fill="#b0abaf">+</text><text x="433.2" y="401.1" class="ascii-char" fill="#b3afb5">+</text><text x="442.3" y="401.1" class="ascii-char" fill="#cbc9d1">-</text><text x="451.4" y="401.1" class="ascii-char" fill="#ececf5">.</text><text x="506.0" y="401.1" class="ascii-char" fill="#dcd6d9">:</text><text x="515.1" y="401.1" class="ascii-char" fill="#9d9290">#</text><text x="524.2" y="401.1" class="ascii-char" fill="#867a79">@</text><text x="533.3" y="401.1" class="ascii-char" fill="#7f7372">@</text><text x="542.4" y="401.1" class="ascii-char" fill="#8a7272">@</text><text x="551.5" y="401.1" class="ascii-char" fill="#9e7976">%</text><text x="560.6" y="401.1" class="ascii-char" fill="#ab7f78">%</text><text x="569.7" y="401.1" class="ascii-char" fill="#b18479">%</text><text x="578.8" y="401.1" class="ascii-char" fill="#be877b">#</text><text x="587.9" y="401.1" class="ascii-char" fill="#c6867d">#</text><text x="597.0" y="401.1" class="ascii-char" fill="#cb877f">#</text><text x="606.1" y="401.1" class="ascii-char" fill="#ce877e">#</text><text x="615.2" y="401.1" class="ascii-char" fill="#d38a7d">#</text><text x="624.3" y="401.1" class="ascii-char" fill="#d68d7d">#</text><text x="633.4" y="401.1" class="ascii-char" fill="#d78c7a">#</text><text x="642.5" y="401.1" class="ascii-char" fill="#d68c78">#</text><text x="415.0" y="417.2" class="ascii-char" fill="#d9d6d7">:</text><text x="424.1" y="417.2" class="ascii-char" fill="#c5c2c3">=</text><text x="433.2" y="417.2" class="ascii-char" fill="#cecccd">-</text><text x="442.3" y="417.2" class="ascii-char" fill="#e0dee0">:</text><text x="451.4" y="417.2" class="ascii-char" fill="#e1dde1">:</text><text x="460.5" y="417.2" class="ascii-char" fill="#ccc9cc">-</text><text x="469.6" y="417.2" class="ascii-char" fill="#e2dfe2">:</text><text x="478.7" y="417.2" class="ascii-char" fill="#edebf1">.</text><text x="524.2" y="417.2" class="ascii-char" fill="#e9eaea">.</text><text x="533.3" y="417.2" class="ascii-char" fill="#e1e0de">:</text><text x="542.4" y="417.2" class="ascii-char" fill="#e1c6c4">-</text><text x="551.5" y="417.2" class="ascii-char" fill="#d3918a">*</text><text x="560.6" y="417.2" class="ascii-char" fill="#de8d7f">*</text><text x="569.7" y="417.2" class="ascii-char" fill="#df917e">*</text><text x="578.8" y="417.2" class="ascii-char" fill="#de907f">*</text><text x="587.9" y="417.2" class="ascii-char" fill="#db8f7c">*</text><text x="597.0" y="417.2" class="ascii-char" fill="#dc9179">*</text><text x="606.1" y="417.2" class="ascii-char" fill="#df8f7a">*</text><text x="615.2" y="417.2" class="ascii-char" fill="#df8c79">#</text><text x="624.3" y="417.2" class="ascii-char" fill="#de8a78">#</text><text x="633.4" y="417.2" class="ascii-char" fill="#db8b79">#</text><text x="642.5" y="417.2" class="ascii-char" fill="#d98c79">#</text><text x="415.0" y="433.3" class="ascii-char" fill="#e7e0de">:</text><text x="424.1" y="433.3" class="ascii-char" fill="#dfd3d0">:</text><text x="433.2" y="433.3" class="ascii-char" fill="#c9b5b0">=</text><text x="442.3" y="433.3" class="ascii-char" fill="#bb9d9a">*</text><text x="451.4" y="433.3" class="ascii-char" fill="#a3827f">%</text><text x="460.5" y="433.3" class="ascii-char" fill="#937272">@</text><text x="469.6" y="433.3" class="ascii-char" fill="#977878">@</text><text x="478.7" y="433.3" class="ascii-char" fill="#a28585">%</text><text x="487.8" y="433.3" class="ascii-char" fill="#b0908f">#</text><text x="496.9" y="433.3" class="ascii-char" fill="#b49998">*</text><text x="506.0" y="433.3" class="ascii-char" fill="#c4adaa">+</text><text x="515.1" y="433.3" class="ascii-char" fill="#d2bfbe">=</text><text x="524.2" y="433.3" class="ascii-char" fill="#e4d6d4">:</text><text x="533.3" y="433.3" class="ascii-char" fill="#eddedf">:</text><text x="542.4" y="433.3" class="ascii-char" fill="#e4bfbd">=</text><text x="551.5" y="433.3" class="ascii-char" fill="#cf8c82">#</text><text x="560.6" y="433.3" class="ascii-char" fill="#d78b79">#</text><text x="569.7" y="433.3" class="ascii-char" fill="#db8d79">#</text><text x="578.8" y="433.3" class="ascii-char" fill="#de8c7e">*</text><text x="587.9" y="433.3" class="ascii-char" fill="#db8d7b">#</text><text x="597.0" y="433.3" class="ascii-char" fill="#da8e78">*</text><text x="606.1" y="433.3" class="ascii-char" fill="#de8f7c">*</text><text x="615.2" y="433.3" class="ascii-char" fill="#dd8e7e">*</text><text x="624.3" y="433.3" class="ascii-char" fill="#d68e7f">#</text><text x="633.4" y="433.3" class="ascii-char" fill="#ce9182">*</text><text x="642.5" y="433.3" class="ascii-char" fill="#c89483">*</text>
+  <text x="415" y="662" class="prompt">kittyborgx@github ~ $ █</text>
+
+  <text x="795" y="210" class="neo-user">KittyBorgX@github</text>
+  <text x="795" y="233" class="neo-rule">──────────────────────────────────</text>
+  <text x="795" y="254" class="neo-label">User</text><text x="918" y="254" class="neo-value">KittyBorgX@github</text><text x="795" y="279" class="neo-label">Name</text><text x="918" y="279" class="neo-value">Krishna Ramasimha</text><text x="795" y="304" class="neo-label">Role</text><text x="918" y="304" class="neo-value">Student / Builder</text><text x="795" y="329" class="neo-label">Location</text><text x="918" y="329" class="neo-value">Bengaluru, India</text><text x="795" y="354" class="neo-label">LinkedIn</text><text x="918" y="354" class="neo-value">linkedin.com/in/krishna-ram…</text><text x="795" y="379" class="neo-label">Discord</text><text x="918" y="379" class="neo-value">@your-discord</text><text x="795" y="404" class="neo-label">Building</text><text x="918" y="404" class="neo-value">coming soon :)</text><text x="795" y="429" class="neo-label">Hobbies</text><text x="918" y="429" class="neo-value">chess | guitar | cooking | …</text><text x="795" y="454" class="neo-label">OS</text><text x="918" y="454" class="neo-value">macOS</text><text x="795" y="479" class="neo-label">Host</text><text x="918" y="479" class="neo-value">MacBook Pro · M2 Max</text><text x="795" y="504" class="neo-label">Shell</text><text x="918" y="504" class="neo-value">zsh</text><text x="795" y="529" class="neo-label">Editor</text><text x="918" y="529" class="neo-value">zed | helix | vscode</text><text x="795" y="554" class="neo-label">Languages</text><text x="918" y="554" class="neo-value">rust | python | ts/js / c++</text><text x="795" y="579" class="neo-label">Status</text><text x="918" y="579" class="neo-value">push mode enabled</text>
+
+  
+    <g>
+      <rect class="panel" x="1240" y="94" width="330" height="360" rx="10"/>
+      <path d="M1241 136H1569" class="separator"/>
+      <path d="M1252 94H1406L1391 126H1252Z" fill="#32302f"/>
+      <text x="1258" y="121" class="panel-title">TEAM RADIO</text>
+    </g>
+  <text x="1538" y="123" text-anchor="end" class="radio-kicker">((•))</text>
+  
+    <text x="1370" y="172" class="radio-brand">KITTYBORGX</text>
+    <text x="1546" y="210" text-anchor="end" class="radio-word">RADIO</text>
+
+    <text x="1262" y="284" class="radio-number">01</text>
+    <line x1="1332" y1="288" x2="1544" y2="288" stroke="#fb4934" stroke-width="3" filter="url(#radioGlow)"/><rect x="1336.0" y="246.0" width="11.2" height="42" rx="1.5" fill="url(#radioBars)"/><rect x="1357.2" y="219.0" width="11.2" height="69" rx="1.5" fill="url(#radioBars)"/><rect x="1378.4" y="235.0" width="11.2" height="53" rx="1.5" fill="url(#radioBars)"/><rect x="1399.6" y="246.0" width="11.2" height="42" rx="1.5" fill="url(#radioBars)"/><rect x="1420.8" y="216.0" width="11.2" height="72" rx="1.5" fill="url(#radioBars)"/><rect x="1442.0" y="232.0" width="11.2" height="56" rx="1.5" fill="url(#radioBars)"/><rect x="1463.2" y="256.0" width="11.2" height="32" rx="1.5" fill="url(#radioBars)"/><rect x="1484.4" y="238.0" width="11.2" height="50" rx="1.5" fill="url(#radioBars)"/><rect x="1505.6" y="256.0" width="11.2" height="32" rx="1.5" fill="url(#radioBars)"/><rect x="1526.8" y="249.0" width="11.2" height="39" rx="1.5" fill="url(#radioBars)"/>
+
+    <rect x="1498" y="248" width="48" height="24" rx="4" fill="#fb4934"/>
+    <text x="1522" y="265" text-anchor="middle" class="radio-badge">KBX</text>
+
+    <text x="1264" y="336" class="radio-quote-red">“LEAVE ME ALONE,</text>
+    <text x="1264" y="372" class="radio-quote-white">I KNOW WHAT I&apos;M DOING.”</text>
+
+    <circle cx="1268" cy="431" r="4" fill="#fb4934" filter="url(#glow)"/>
+    <text x="1282" y="436" class="radio-footer">CAR 01 · TEAM RADIO · LIVE</text>
+
+  <rect x="370" y="744" width="1200" height="106" rx="10" fill="#282828" stroke="#504945" stroke-width="1.4"/>
+  
+    <g>
+      <path d="M570 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="388" y="777" class="stat-label">REPOSITORIES</text>
+      <text x="388" y="806" class="stat-value" fill="#ebdbb2">30</text>
+      <text x="388" y="824" class="stat-sub">CARS ENTERED</text>
+    </g>
+  
+    <g>
+      <path d="M770 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="588" y="777" class="stat-label">STARS</text>
+      <text x="588" y="806" class="stat-value" fill="#fabd2f">50</text>
+      <text x="588" y="824" class="stat-sub">CHAMPIONSHIP POINTS</text>
+    </g>
+  
+    <g>
+      <path d="M970 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="788" y="777" class="stat-label">FOLLOWERS</text>
+      <text x="788" y="806" class="stat-value" fill="#83a598">63</text>
+      <text x="788" y="824" class="stat-sub">PIT CREW</text>
+    </g>
+  
+    <g>
+      <path d="M1170 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="988" y="777" class="stat-label">COMMITS</text>
+      <text x="988" y="806" class="stat-value" fill="#fb4934">1,284</text>
+      <text x="988" y="824" class="stat-sub">LAPS COMPLETED</text>
+    </g>
+  
+    <g>
+      <path d="M1370 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="1188" y="777" class="stat-label">PULL REQUESTS</text>
+      <text x="1188" y="806" class="stat-value" fill="#b8bb26">24</text>
+      <text x="1188" y="824" class="stat-sub">OVERTAKES</text>
+    </g>
+  
+    <g>
+      <path d="M1569 766V824" stroke="#504945" stroke-width="1"/>
+      <text x="1388" y="777" class="stat-label">CURRENT STREAK</text>
+      <text x="1388" y="806" class="stat-value" fill="#fe8019">12 days</text>
+      <text x="1388" y="824" class="stat-sub">CURRENT STINT</text>
+    </g>
+  <text x="1570" y="888" text-anchor="end" class="footer">KITTYBORGX / BUILD / LEARN / RACE / REPEAT</text>
+</svg>

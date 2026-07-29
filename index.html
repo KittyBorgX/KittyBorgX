@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KittyBorgX GitHub Profile Preview</title>
+  <style>
+    :root { color-scheme: dark; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; background: #0b0c12; color: #c0caf5; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: radial-gradient(circle at top, #1a1b26, #090a0f 58%); }
+    header { position: sticky; top: 0; z-index: 2; display: flex; align-items: center; justify-content: space-between; gap: .8rem; padding: .9rem 1.2rem; border-bottom: 1px solid #3b4261; background: rgba(9,10,15,.9); backdrop-filter: blur(12px); }
+    h1 { margin: 0; font-size: clamp(.95rem, 2vw, 1.25rem); letter-spacing: .08em; }
+    .controls { display: flex; gap: .55rem; }
+    button { border: 1px solid #3b4261; border-radius: .45rem; padding: .55rem .85rem; background: #16161e; color: #c0caf5; font: inherit; cursor: pointer; }
+    button[aria-pressed="true"] { border-color: #f7768e; color: #f7768e; }
+    main { padding: 1.25rem; }
+    .frame { max-width: 1600px; margin: 0 auto; overflow: hidden; border-radius: .7rem; box-shadow: 0 28px 100px rgba(0,0,0,.52); border: 1px solid #24283b; }
+    img { display: block; width: 100%; height: auto; }
+    p { max-width: 1600px; margin: 1rem auto 0; color: #8b93b8; font-size: .85rem; }
+    code { color: #9ece6a; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>KittyBorgX // GITHUB PROFILE</h1>
+    <div class="controls">
+      <button data-theme="tokyonight" aria-pressed="true">Tokyo Night</button>
+      <button data-theme="gruvbox" aria-pressed="false">Gruvbox</button>
+    </div>
+  </header>
+  <main>
+    <div class="frame"><img id="dashboard" src="assets/profile-tokyonight.svg" alt="GitHub profile dashboard preview"></div>
+    <p>Edit <code>config.json</code>, run <code>npm run build</code>, then reload. Keyboard: <code>T</code> for Tokyo Night and <code>G</code> for Gruvbox.</p>
+  </main>
+  <script>
+    const image = document.querySelector('#dashboard');
+    const buttons = [...document.querySelectorAll('[data-theme]')];
+    let theme = localStorage.getItem('kittyborgx-theme') || 'tokyonight';
+    function render() {
+      image.src = `assets/profile-${theme}.svg?${Date.now()}`;
+      buttons.forEach((button) => button.setAttribute('aria-pressed', String(button.dataset.theme === theme)));
+      localStorage.setItem('kittyborgx-theme', theme);
+    }
+    buttons.forEach((button) => button.addEventListener('click', () => { theme = button.dataset.theme; render(); }));
+    document.addEventListener('keydown', (event) => {
+      if (event.key.toLowerCase() === 't') theme = 'tokyonight';
+      if (event.key.toLowerCase() === 'g') theme = 'gruvbox';
+      render();
+    });
+    render();
+  </script>
+</body>
+</html>

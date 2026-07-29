@@ -1,0 +1,17 @@
+{
+  "name": "kittyborgx-github-profile",
+  "version": "12.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/render.mjs --theme all --data data/demo.json",
+    "build:live": "node scripts/render.mjs --theme all --data data/github.json",
+    "fetch": "node scripts/fetch-github.mjs",
+    "update": "npm run fetch && npm run build:live",
+    "preview": "node scripts/serve.mjs",
+    "check": "node --check scripts/render.mjs && node --check scripts/fetch-github.mjs && node --check scripts/serve.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

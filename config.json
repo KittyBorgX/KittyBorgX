@@ -1,0 +1,32 @@
+{
+  "username": "KittyBorgX",
+  "name": "Krishna Ramasimha",
+  "brand": "KittyBorgX",
+  "eventTitle": "GITHUB GRAND PRIX",
+  "session": "DEVELOPMENT",
+  "role": "Student / Builder",
+  "location": "Bengaluru, India",
+  "quote": "Time is but a stubborn illusion.",
+  "radioMessage": "Leave me alone, I know what I'm doing.",
+  "tower": {
+    "mode": "recent",
+    "limit": 6,
+    "exclude": [
+      "KittyBorgX"
+    ]
+  },
+  "neofetch": {
+    "os": "macOS",
+    "host": "MacBook Pro \u00b7 M2 Max",
+    "shell": "zsh",
+    "editor": "zed | helix | vscode",
+    "languages": "rust | python | ts/js / c++"
+  },
+  "contact": {
+    "linkedin": "linkedin.com/in/krishna-ramasimha",
+    "discord": "@your-discord"
+  },
+  "building": "coming soon :)",
+  "hobbies": "chess | guitar | cooking | f1",
+  "status": "push mode enabled"
+}
