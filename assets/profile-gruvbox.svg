@@ -220,14 +220,14 @@
     <g>
       <path d="M970 766V824" stroke="#504945" stroke-width="1"/>
       <text x="788" y="777" class="stat-label">FOLLOWERS</text>
-      <text x="788" y="806" class="stat-value" fill="#83a598">64</text>
+      <text x="788" y="806" class="stat-value" fill="#83a598">65</text>
       <text x="788" y="824" class="stat-sub">PIT CREW</text>
     </g>
   
     <g>
       <path d="M1170 766V824" stroke="#504945" stroke-width="1"/>
       <text x="988" y="777" class="stat-label">COMMITS</text>
-      <text x="988" y="806" class="stat-value" fill="#fb4934">35</text>
+      <text x="988" y="806" class="stat-value" fill="#fb4934">36</text>
       <text x="988" y="824" class="stat-sub">LAPS COMPLETED</text>
     </g>
   
@@ -241,7 +241,7 @@
     <g>
       <path d="M1569 766V824" stroke="#504945" stroke-width="1"/>
       <text x="1388" y="777" class="stat-label">CURRENT STREAK</text>
-      <text x="1388" y="806" class="stat-value" fill="#fe8019">27 days</text>
+      <text x="1388" y="806" class="stat-value" fill="#fe8019">28 days</text>
       <text x="1388" y="824" class="stat-sub">CURRENT STINT</text>
     </g>
   <text x="1570" y="888" text-anchor="end" class="footer">KITTYBORGX / BUILD / LEARN / RACE / REPEAT</text>
